@@ -14,5 +14,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Toaster.simpleToast(this, "Coding with Sandeep");
+        Toaster.customToast(this, "");
     }
 }
